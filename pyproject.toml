@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-python-git-ref-lib-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Vincent Hiribarren <vhiribarren@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+cowsay = "^6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
